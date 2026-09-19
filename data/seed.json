@@ -1,0 +1,277 @@
+{
+  "institutions": [
+    {"name": "大英图书馆", "city": "伦敦", "country": "英国"},
+    {"name": "法国国家图书馆", "city": "巴黎", "country": "法国"},
+    {"name": "国立公文书馆内阁文库", "city": "东京", "country": "日本"},
+    {"name": "柏林国家图书馆", "city": "柏林", "country": "德国"}
+  ],
+  "works": [
+    {"title": "无双谱", "aliases": ["南陵无双谱"], "note": "金古良辑绘人物版画集"},
+    {"title": "湖山胜概", "aliases": [], "note": "西湖景致彩色套印版画集"},
+    {"title": "帝鉴图说", "aliases": ["历代帝鉴图说"], "note": "张居正进呈帝鉴故事图解"},
+    {"title": "新镌海内奇观", "aliases": ["海内奇观"], "note": "杨尔曾辑山水名胜插图集"}
+  ],
+  "editions": [
+    {"work": "无双谱", "label": "清康熙刻本（馆藏著录）"},
+    {"work": "湖山胜概", "label": "明万历套印本（馆藏著录）"},
+    {"work": "帝鉴图说", "label": "明万历刻本（馆藏著录）"},
+    {"work": "新镌海内奇观", "label": "明万历夷白堂刻本（馆藏著录）"}
+  ],
+  "licenses": [
+    {
+      "institution": "大英图书馆",
+      "title": "大英图书馆研究许可",
+      "purposes": ["research", "publication"],
+      "regions": ["GB", "EU", "CN"],
+      "max_resolution": "medium",
+      "expires_on": "2028-12-31"
+    },
+    {
+      "institution": "法国国家图书馆",
+      "title": "BnF 研究许可",
+      "purposes": ["research"],
+      "regions": ["FR", "EU"],
+      "max_resolution": "high",
+      "expires_on": "2026-06-30"
+    },
+    {
+      "institution": "国立公文书馆内阁文库",
+      "title": "内阁文库利用许可",
+      "purposes": ["research", "exhibition", "publication"],
+      "regions": ["ANY"],
+      "max_resolution": "high",
+      "expires_on": null
+    },
+    {
+      "institution": "柏林国家图书馆",
+      "title": "柏林国图阅览许可",
+      "purposes": ["research", "exhibition"],
+      "regions": ["DE", "EU"],
+      "max_resolution": "low",
+      "expires_on": "2027-03-31"
+    }
+  ],
+  "volumes": [
+    {
+      "institution": "大英图书馆",
+      "shelfmark": "15333.d.4",
+      "edition": {"work": "无双谱", "label": "清康熙刻本（馆藏著录）"},
+      "completeness": "完整",
+      "juan_held": ["卷首", "卷一"]
+    },
+    {
+      "institution": "法国国家图书馆",
+      "shelfmark": "CHINOIS 6274",
+      "edition": {"work": "湖山胜概", "label": "明万历套印本（馆藏著录）"},
+      "completeness": "残卷",
+      "juan_held": ["卷一"]
+    },
+    {
+      "institution": "国立公文书馆内阁文库",
+      "shelfmark": "305-0021",
+      "edition": {"work": "帝鉴图说", "label": "明万历刻本（馆藏著录）"},
+      "completeness": "完整"
+    },
+    {
+      "institution": "柏林国家图书馆",
+      "shelfmark": "Libri sin. 1234",
+      "edition": {"work": "新镌海内奇观", "label": "明万历夷白堂刻本（馆藏著录）"},
+      "completeness": "残卷",
+      "juan_held": ["卷二"]
+    }
+  ],
+  "images": [
+    {
+      "institution": "大英图书馆",
+      "shelfmark": "15333.d.4",
+      "leaf": "卷首·叶一·a",
+      "resolution": "high",
+      "license": "大英图书馆研究许可"
+    },
+    {
+      "institution": "大英图书馆",
+      "shelfmark": "15333.d.4",
+      "leaf": "卷首·叶二·b",
+      "resolution": "medium",
+      "license": "大英图书馆研究许可"
+    },
+    {
+      "institution": "法国国家图书馆",
+      "shelfmark": "CHINOIS 6274",
+      "leaf": "卷一·叶三·a",
+      "resolution": "high",
+      "license": "BnF 研究许可"
+    },
+    {
+      "institution": "国立公文书馆内阁文库",
+      "shelfmark": "305-0021",
+      "leaf": "卷一·叶五·b",
+      "resolution": "high",
+      "license": "内阁文库利用许可"
+    },
+    {
+      "institution": "柏林国家图书馆",
+      "shelfmark": "Libri sin. 1234",
+      "leaf": "卷二·叶一·a",
+      "resolution": "low",
+      "license": "柏林国图阅览许可"
+    }
+  ],
+  "claims": [
+    {
+      "ref": "wsp-dating-1694",
+      "subject": {"type": "edition", "work": "无双谱", "label": "清康熙刻本（馆藏著录）"},
+      "kind": "dating",
+      "statement": "刊刻于清康熙三十三年（1694）",
+      "value": {"not_before": "1694", "not_after": "1694"},
+      "confidence": "high",
+      "author": "研究者甲",
+      "rationale": "牌记纪年与序文署年互证。",
+      "status": "adopted",
+      "evidence": [
+        {
+          "image": {"institution": "大英图书馆", "shelfmark": "15333.d.4", "leaf": "卷首·叶一·a"},
+          "note": "牌记题'康熙三十三年镌'",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "ref": "wsp-dating-later",
+      "subject": {"type": "edition", "work": "无双谱", "label": "清康熙刻本（馆藏著录）"},
+      "kind": "dating",
+      "statement": "现存印本或为康熙后翻刻，原刻不早于1694",
+      "value": {"not_before": "1694", "not_after": "1710"},
+      "confidence": "low",
+      "author": "研究者乙",
+      "rationale": "牌记字体与常见后印本接近，存疑待考。",
+      "status": "discussion",
+      "evidence": [
+        {
+          "image": {"institution": "大英图书馆", "shelfmark": "15333.d.4", "leaf": "卷首·叶一·a"},
+          "note": "牌记字体比对",
+          "confidence": "low"
+        }
+      ],
+      "comments": [
+        {"author": "研究者丙", "body": "建议比对纸张与刻工再定，暂不宜采用。"}
+      ]
+    },
+    {
+      "ref": "wsp-authorship",
+      "subject": {"type": "work", "title": "无双谱"},
+      "kind": "authorship",
+      "statement": "金古良（金史）辑绘",
+      "value": {"person": "金古良", "role": "辑绘"},
+      "confidence": "high",
+      "author": "研究者甲",
+      "status": "adopted",
+      "evidence": [
+        {
+          "image": {"institution": "大英图书馆", "shelfmark": "15333.d.4", "leaf": "卷首·叶二·b"},
+          "note": "自序署款'南陵金史'",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "ref": "hsgj-technique-douban",
+      "subject": {"type": "edition", "work": "湖山胜概", "label": "明万历套印本（馆藏著录）"},
+      "kind": "technique",
+      "statement": "彩色套印（饾版）",
+      "value": {"technique": "饾版套印"},
+      "confidence": "medium",
+      "author": "研究者乙",
+      "status": "adopted",
+      "evidence": [
+        {
+          "image": {"institution": "法国国家图书馆", "shelfmark": "CHINOIS 6274", "leaf": "卷一·叶三·a"},
+          "note": "色块边缘可见多版套准痕迹",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "ref": "hsgj-technique-hand",
+      "subject": {"type": "edition", "work": "湖山胜概", "label": "明万历套印本（馆藏著录）"},
+      "kind": "technique",
+      "statement": "墨印后手工设色",
+      "value": {"technique": "手工设色"},
+      "confidence": "low",
+      "author": "研究者丁",
+      "status": "discussion",
+      "evidence": [
+        {
+          "image": {"institution": "法国国家图书馆", "shelfmark": "CHINOIS 6274", "leaf": "卷一·叶三·a"},
+          "note": "局部色彩溢出轮廓线",
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "ref": "djts-transmission",
+      "subject": {"type": "volume", "institution": "国立公文书馆内阁文库", "shelfmark": "305-0021"},
+      "kind": "transmission",
+      "statement": "江户时期经长崎输入，后归红叶山文库",
+      "value": {"path": ["中国", "长崎", "红叶山文库", "内阁文库"]},
+      "confidence": "medium",
+      "author": "研究者丙",
+      "status": "adopted",
+      "evidence": [
+        {
+          "image": {"institution": "国立公文书馆内阁文库", "shelfmark": "305-0021", "leaf": "卷一·叶五·b"},
+          "note": "钤'红叶山文库'藏印",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "ref": "nhgq-dating",
+      "subject": {"type": "edition", "work": "新镌海内奇观", "label": "明万历夷白堂刻本（馆藏著录）"},
+      "kind": "dating",
+      "statement": "刊于明万历三十七年（1609）",
+      "value": {"not_before": "1609", "not_after": "1609"},
+      "confidence": "high",
+      "author": "研究者甲",
+      "status": "adopted",
+      "evidence": [
+        {
+          "image": {"institution": "柏林国家图书馆", "shelfmark": "Libri sin. 1234", "leaf": "卷二·叶一·a"},
+          "note": "序末纪年'万历己酉'",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "ref": "hsgj-attribution",
+      "subject": {"type": "volume", "institution": "法国国家图书馆", "shelfmark": "CHINOIS 6274"},
+      "kind": "attribution",
+      "statement": "残卷为明万历原刻，非清翻刻",
+      "value": {"position": "原刻"},
+      "confidence": "medium",
+      "author": "研究者乙",
+      "status": "discussion",
+      "evidence": [
+        {
+          "volume": {"institution": "法国国家图书馆", "shelfmark": "CHINOIS 6274"},
+          "leaf": "卷一·叶三·a",
+          "note": "版心刻工名与万历本合",
+          "confidence": "medium"
+        }
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "title": "江南版画展览图录（样例）",
+      "purpose": "exhibition",
+      "region": "EU",
+      "resolution": "high",
+      "claims": ["wsp-dating-1694", "hsgj-technique-douban", "djts-transmission"],
+      "images": [
+        {"institution": "柏林国家图书馆", "shelfmark": "Libri sin. 1234", "leaf": "卷二·叶一·a"}
+      ],
+      "note": "跨机构展览样例：柏林图像作为额外插图纳入授权检查。"
+    }
+  ]
+}
